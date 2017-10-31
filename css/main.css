@@ -16,7 +16,6 @@ header {
 /* Estilo General de las secciones*/
 .container {
   box-sizing: border-box;
-  background: gray;
   position: relative;
   width: 100% ;
   display: inline-block;
@@ -26,7 +25,6 @@ header {
 /* Estilo Footer*/
 .container-footer {
   box-sizing: border-box;
-  background: green;
   width: 100% ;
   height: 400px;
   display: inline-block;
@@ -54,12 +52,77 @@ div .div-f{
   float: left;
 }
 
-span {
-  font-size: 250%;
+span { font-size: 250%;}
+
+.container-footer-iconos {left: 500px; }
+
+/* Estilo del texto contenido de la sección 5*/
+.section-five , .section-four {
+width: 100%;
+display: inline-block;
+float: left;
 }
 
-.container-footer-iconos {
 
-  left: 500px;
+.content-3 {
+width: 20%;
+position: relative;
+left: 40px;
+}
 
+.content-4 {
+width: 20%;
+position: relative;
+left: 500px;
+}
+
+.content-5 {
+width: 20%;
+position: relative;
+left: 40px;
+}
+
+.iframe-1 {
+  width: 65%;
+  position: absolute;
+  left: 400px;
+  height: 500px;
+}
+
+.iframe-2 {
+  width: 65%;
+  position: absolute;
+  height: 500px;
+}
+
+.iframe-3 {
+  width: 65%;
+  position: absolute;
+  left: 400px;
+  height: 500px;
+}
+
+.section-one {
+background:url(../assets/images/hero.gif);
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: scroll;
+width: 100%;
+height: 700px;
+}
+
+
+
+.section-two {
+color: white;
+margin:0px;
+padding: 0px;
+border: 0px;
+background: linear-gradient(#76278F, #2B1E66);
+width: 100%;
+height: 700px;
+
+}
+.container-footer {
+background:  #333447;
 }
