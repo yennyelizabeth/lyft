@@ -10,8 +10,25 @@ body {
 }
 
 header {
+position:fixed;
+color: white ;
+}
+
+.text-white {
+  color: white;
+}
+nav {
+  position: absolute;
+  left: 200px;
 
 }
+
+nav p {
+  display: inline-block;
+  float: left;
+}
+
+
 
 /* Estilo General de las secciones*/
 .container {
@@ -119,8 +136,16 @@ top:  -420px;
 
 }
 
+.text-2-1 {
 
-img {
+}
+
+.logo-1 {
+  width: 100px;
+}
+
+
+.img-1 {
   width: 500px;
   height: auto;
   display: inline-block;
